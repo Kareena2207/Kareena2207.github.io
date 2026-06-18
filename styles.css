@@ -223,6 +223,8 @@ h3 {
 
 .hero-media {
   position: relative;
+  width: min(100%, 424px);
+  justify-self: end;
 }
 
 .portrait-card {
