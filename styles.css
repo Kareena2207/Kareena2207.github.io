@@ -114,12 +114,12 @@ video {
 
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 1.18fr) minmax(280px, 0.6fr);
-  min-height: auto;
+  grid-template-columns: minmax(0, 1.08fr) minmax(300px, 0.72fr);
+  min-height: calc(100vh - 68px);
   align-items: center;
-  gap: clamp(24px, 4vw, 54px);
-  padding-top: clamp(18px, 3vh, 30px);
-  padding-bottom: clamp(16px, 3vh, 24px);
+  gap: clamp(28px, 5vw, 68px);
+  padding-top: clamp(24px, 4vh, 38px);
+  padding-bottom: clamp(24px, 4vh, 38px);
 }
 
 .eyebrow,
@@ -149,10 +149,10 @@ h2 {
 
 h1 {
   max-width: 760px;
-  margin-bottom: 12px;
+  margin-bottom: 16px;
   color: var(--charcoal);
-  font-size: clamp(3.2rem, 5.8vw, 5.85rem);
-  line-height: 0.88;
+  font-size: clamp(3.4rem, 6.5vw, 6.65rem);
+  line-height: 0.9;
 }
 
 h1 em {
@@ -177,8 +177,8 @@ h3 {
 .hero-text {
   max-width: 650px;
   color: var(--muted);
-  font-size: clamp(0.96rem, 1.25vw, 1.05rem);
-  line-height: 1.48;
+  font-size: clamp(1rem, 1.42vw, 1.16rem);
+  line-height: 1.55;
 }
 
 .hero-badges,
@@ -190,11 +190,11 @@ h3 {
 }
 
 .hero-badges {
-  margin: 16px 0 18px;
+  margin: 20px 0 22px;
 }
 
 .hero-badges span {
-  padding: 6px 10px;
+  padding: 7px 10px;
   border: 1px solid var(--line);
   background: rgba(255, 253, 248, 0.78);
   color: var(--muted);
@@ -225,7 +225,7 @@ h3 {
 
 .hero-media {
   position: relative;
-  width: min(100%, 348px);
+  width: min(100%, 410px);
   justify-self: end;
 }
 
@@ -256,14 +256,14 @@ h3 {
 .hero-stats {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  margin: 10px 0 0;
+  margin: 12px 0 0;
   border: 1px solid var(--line);
   background: var(--line);
   gap: 1px;
 }
 
 .hero-stats div {
-  padding: 8px 6px;
+  padding: 10px 8px;
   background: rgba(255, 253, 248, 0.92);
   text-align: center;
 }
@@ -271,14 +271,14 @@ h3 {
 .hero-stats dt {
   color: var(--accent);
   font-family: var(--serif);
-  font-size: 1.48rem;
+  font-size: 1.7rem;
   line-height: 1;
 }
 
 .hero-stats dd {
   margin: 4px 0 0;
   color: var(--muted);
-  font-size: 0.62rem;
+  font-size: 0.66rem;
   font-weight: 800;
   letter-spacing: 0.08em;
   text-transform: uppercase;
