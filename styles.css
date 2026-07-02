@@ -149,7 +149,6 @@ li + li {
   background: var(--border);
 }
 
-.brand-name,
 .nav-links a {
   font-size: 0.95rem;
   font-weight: 850;
@@ -159,6 +158,10 @@ li + li {
 
 .brand-name {
   color: var(--text-primary);
+  font-size: 1.22rem;
+  font-weight: 850;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
 }
 
 .nav-links {
