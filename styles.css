@@ -15,9 +15,9 @@
   --mustard-light: #c4a04b;
   --mustard-tint: #f1e5c4;
   --ice: #f7fbfc;
-  --text-primary: #211934;
-  --text-secondary: #5f5770;
-  --text-muted: #81778f;
+  --text-primary: #141018;
+  --text-secondary: #26212d;
+  --text-muted: #3f374b;
   --text-on-dark: #fbf8ff;
   --border: #d0c3e1;
   --border-dark: #5c4774;
@@ -47,6 +47,7 @@ body {
   background-size: 56px 56px;
   color: var(--text-primary);
   font-family: "Bentham", Georgia, serif;
+  font-size: 1.25rem;
   line-height: 1.6;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -137,7 +138,7 @@ li + li {
 .brand-mark {
   color: var(--mustard);
   font-family: "Marcellus", Georgia, serif;
-  font-size: 1.05rem;
+  font-size: 1.3rem;
   font-weight: 400;
   letter-spacing: 0.02em;
 }
@@ -150,7 +151,7 @@ li + li {
 
 .brand-name,
 .nav-links a {
-  font-size: 0.75rem;
+  font-size: 0.95rem;
   font-weight: 850;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -218,8 +219,8 @@ li + li {
   width: fit-content;
   border: 1.5px solid var(--accent);
   background: linear-gradient(135deg, var(--lilac-soft), var(--accent-tint) 54%, var(--mustard-tint));
-  color: var(--accent);
-  font-size: 0.66rem;
+  color: var(--text-secondary);
+  font-size: 0.91rem;
   font-weight: 850;
   letter-spacing: 0.12em;
   padding: 5px 13px;
@@ -268,7 +269,7 @@ h3 {
 .hero-copy > p {
   max-width: 520px;
   color: var(--text-secondary);
-  font-size: 0.98rem;
+  font-size: 1.23rem;
   line-height: 1.65;
 }
 
@@ -286,7 +287,7 @@ h3 {
   justify-content: center;
   border: var(--border-width) solid transparent;
   padding: 0 24px;
-  font-size: 0.74rem;
+  font-size: 0.99rem;
   font-weight: 850;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -306,7 +307,7 @@ h3 {
 
 .btn-secondary {
   border-color: var(--accent-light);
-  color: var(--accent-light);
+  color: var(--text-secondary);
 }
 
 .btn-secondary:hover {
@@ -346,7 +347,7 @@ h3 {
 .ticker-track span {
   display: inline-flex;
   align-items: center;
-  font-size: 0.8rem;
+  font-size: 1.05rem;
   font-weight: 850;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -410,11 +411,11 @@ h3 {
   max-width: 640px;
   margin: 18px 0 0;
   color: var(--text-secondary);
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 
 .section-copy-dark {
-  color: rgba(241, 245, 248, 0.72);
+  color: rgba(251, 248, 255, 0.86);
 }
 
 .split-header {
@@ -452,7 +453,7 @@ h3 {
   gap: 16px;
   margin-bottom: 22px;
   color: var(--text-muted);
-  font-size: 0.66rem;
+  font-size: 0.91rem;
   font-weight: 850;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -515,8 +516,8 @@ h3 {
   width: fit-content;
   margin-top: 18px;
   border-bottom: 2px solid rgba(155, 122, 47, 0.42);
-  color: var(--accent);
-  font-size: 0.74rem;
+  color: var(--text-secondary);
+  font-size: 0.99rem;
   font-weight: 900;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -540,7 +541,7 @@ h3 {
   display: block;
   margin-bottom: 28px;
   color: var(--text-muted);
-  font-size: 0.72rem;
+  font-size: 0.97rem;
   font-weight: 850;
   letter-spacing: 0.1em;
 }
@@ -559,7 +560,7 @@ h3 {
 
 .journey-date {
   color: var(--mustard-light);
-  font-size: 0.76rem;
+  font-size: 1.01rem;
   font-weight: 900;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -567,7 +568,7 @@ h3 {
 
 .journey-list p:not(.journey-date) {
   max-width: 880px;
-  color: rgba(241, 245, 248, 0.72);
+  color: rgba(251, 248, 255, 0.86);
 }
 
 .research-grid,
@@ -615,9 +616,9 @@ h3 {
   gap: 20px;
   border-top: var(--border-width) solid var(--border-dark);
   background: var(--bg-dark);
-  color: rgba(241, 245, 248, 0.48);
+  color: rgba(251, 248, 255, 0.68);
   padding: 22px var(--section-padding-h);
-  font-size: 0.68rem;
+  font-size: 0.93rem;
   font-weight: 800;
   letter-spacing: 0.08em;
   text-transform: uppercase;
