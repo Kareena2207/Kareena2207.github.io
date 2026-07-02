@@ -202,8 +202,8 @@ li + li {
   display: flex;
   min-width: 0;
   flex-direction: column;
-  justify-content: center;
-  padding: clamp(48px, 8vh, 82px) var(--section-padding-h);
+  justify-content: flex-start;
+  padding: 112px var(--section-padding-h) 56px;
 }
 
 .pill-row {
