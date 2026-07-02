@@ -46,7 +46,7 @@ body {
     var(--bg-page);
   background-size: 56px 56px;
   color: var(--text-primary);
-  font-family: "Inter", Arial, sans-serif;
+  font-family: "Bentham", Georgia, serif;
   line-height: 1.6;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
