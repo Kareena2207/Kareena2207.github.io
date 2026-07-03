@@ -259,14 +259,24 @@
           </article>
 
           <article class="work-card">
+            <video class="work-media" autoplay loop muted playsinline preload="metadata" poster="bipedal-locomotion-poster.jpg">
+              <source src="bipedal-locomotion-demo.mp4" type="video/mp4">
+            </video>
             <div class="work-body">
               <div class="work-meta">
                 <span>Reinforcement Learning</span>
                 <span>2025</span>
               </div>
               <h3>NeuroEvolution for Bipedal Locomotion</h3>
-              <p>Evolved neural controllers for BipedalWalker-v3 and compared reward shaping strategies for stable, energy-aware locomotion.</p>
+              <p>Evolved neural controllers for BipedalWalker-v3 with NEAT and compared reward-shaping variants for stable, energy-aware walking.</p>
+              <ul>
+                <li>Ran baseline, efficiency, stability, and ablation experiments across 20-episode evaluations.</li>
+                <li>Achieved the strongest average reward with the stability configuration and 0% failure rate in final evaluation.</li>
+                <li>Analyzed the winning topology with 37 nodes, 26 connections, and 9 hidden nodes.</li>
+              </ul>
               <p class="result-line">Best average reward: 272.92.</p>
+              <a class="text-link" href="https://github.com/Kareena2207/neat_bipedal_locomotion" target="_blank" rel="noreferrer">View repository</a>
+              <a class="text-link" href="bipedal-comparison-results.png" target="_blank" rel="noreferrer">View experiment comparison</a>
             </div>
           </article>
 
