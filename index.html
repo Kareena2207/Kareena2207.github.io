@@ -281,13 +281,22 @@
           </article>
 
           <article class="work-card">
+            <video class="work-media" autoplay loop muted playsinline preload="metadata" poster="multi-robot-simulation-poster.jpg">
+              <source src="multi-robot-simulation.mp4" type="video/mp4">
+            </video>
             <div class="work-body">
               <div class="work-meta">
                 <span>Multi-Robot Systems</span>
                 <span>2025</span>
               </div>
               <h3>Multi-Robot Disaster Management</h3>
-              <p>Developed coordinated robot behavior for search, navigation, and response workflows in emergency scenarios.</p>
+              <p>Simulated a 12-robot disaster-response team delivering relief supplies across demand hotspots in an earthquake-style urban field.</p>
+              <ul>
+                <li>Built Voronoi-based coverage control over priority and demand fields to split robot effort across multiple hotspots.</li>
+                <li>Added greedy task allocation, finite supply capacity, base-refill behavior, and service-radius demand reduction.</li>
+                <li>Maintained safe robot spacing with a repulsive collision-avoidance term while reducing unmet demand over the mission.</li>
+              </ul>
+              <p class="result-line">MATLAB simulation with 12 robots, 3 hotspots, and safe separation above 3m.</p>
               <a class="text-link" href="https://github.com/Kareena2207/Multi-Robot_Disaster_Management" target="_blank" rel="noreferrer">View repository</a>
             </div>
           </article>
