@@ -239,7 +239,7 @@ li + li {
 h1 {
   max-width: 620px;
   margin-bottom: 20px;
-  color: var(--text-primary);
+  color: var(--accent);
   font-family: "Marcellus", Georgia, serif;
   font-size: clamp(2.6rem, 5.2vw, 5rem);
   font-weight: 400;
@@ -251,7 +251,7 @@ h1 {
 h2 {
   max-width: 900px;
   margin-bottom: 0;
-  color: var(--text-primary);
+  color: var(--accent);
   font-family: "Marcellus", Georgia, serif;
   font-size: clamp(1.8rem, 3.1vw, 3.1rem);
   font-weight: 400;
@@ -261,7 +261,7 @@ h2 {
 }
 
 h3 {
-  color: var(--text-primary);
+  color: var(--accent);
   font-family: "Marcellus", Georgia, serif;
   font-size: 1.18rem;
   font-weight: 400;
