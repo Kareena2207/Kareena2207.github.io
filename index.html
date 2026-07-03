@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bentham&family=Marcellus&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=work-grid-1">
+  <link rel="stylesheet" href="styles.css?v=dpvo-card-1">
 </head>
 <body id="top">
   <a class="skip-link" href="#content">Skip to content</a>
@@ -201,7 +201,7 @@
         </div>
 
         <div class="work-grid">
-          <article class="work-card work-card-featured">
+          <article class="work-card">
             <video class="work-media" autoplay loop muted playsinline preload="metadata">
               <source src="vlm-video.mp4" type="video/mp4">
             </video>
@@ -221,14 +221,20 @@
           </article>
 
           <article class="work-card">
+            <img class="work-media" src="dpvo-trajectory-comparison.jpg" alt="DPVO trajectory estimates compared with TartanAir ground truth">
             <div class="work-body">
               <div class="work-meta">
                 <span>Visual Odometry</span>
                 <span>2025</span>
               </div>
               <h3>Deep Patch Visual Odometry Ablation Study</h3>
-              <p>Benchmarked DPVO variants on TartanAir to study temporal attention, ConvLSTM, and Softmax temperature tuning.</p>
+              <p>Evaluated DPVO on TartanAir sequences using Absolute Trajectory Error and studied architectural changes for robustness.</p>
+              <ul>
+                <li>Tested ConvLSTM temporal fusion, gradient-based patch selection, and attention temperature tuning.</li>
+                <li>Compared predicted trajectories against ground truth across representative indoor and outdoor sequences.</li>
+              </ul>
               <p class="result-line">Lowest average ATE: 0.21m.</p>
+              <a class="text-link" href="https://github.com/Kareena2207/dpvo_ablation_study" target="_blank" rel="noreferrer">View repository</a>
             </div>
           </article>
 
