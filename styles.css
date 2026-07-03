@@ -1,15 +1,15 @@
 :root {
   color-scheme: light;
-  --bg-page: #f5f2fb;
+  --bg-page: #e7dcf4;
   --bg-card: #fffefe;
-  --bg-card-alt: #e9e2f4;
+  --bg-card-alt: #ded0ee;
   --bg-dark: #251935;
   --accent: #6b4aa0;
   --accent-light: #9d7bcc;
   --accent-deep: #4a2f72;
-  --accent-tint: #ede6f8;
+  --accent-tint: #e1d4f2;
   --lilac: #d8c7ef;
-  --lilac-soft: #f2ecfa;
+  --lilac-soft: #e9def6;
   --plum-soft: #c7a9df;
   --mustard: #9a7628;
   --mustard-light: #c4a04b;
@@ -41,8 +41,8 @@ body {
   margin: 0;
   min-height: 100vh;
   background:
-    linear-gradient(90deg, rgba(107, 74, 160, 0.14) 1px, transparent 1px),
-    linear-gradient(0deg, rgba(199, 169, 223, 0.18) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(107, 74, 160, 0.22) 1px, transparent 1px),
+    linear-gradient(0deg, rgba(131, 93, 178, 0.24) 1px, transparent 1px),
     var(--bg-page);
   background-size: 56px 56px;
   color: var(--text-primary);
@@ -60,9 +60,9 @@ body::before {
   pointer-events: none;
   content: "";
   background:
-    linear-gradient(120deg, rgba(241, 229, 196, 0.38), transparent 34%),
-    linear-gradient(300deg, rgba(157, 123, 204, 0.30), transparent 44%),
-    radial-gradient(circle at 50% 0%, rgba(255, 254, 254, 0.98), rgba(216, 199, 239, 0.42) 48%, transparent 74%);
+    linear-gradient(120deg, rgba(241, 229, 196, 0.28), transparent 34%),
+    linear-gradient(300deg, rgba(111, 75, 158, 0.38), transparent 44%),
+    radial-gradient(circle at 50% 0%, rgba(255, 254, 254, 0.72), rgba(191, 169, 221, 0.52) 48%, transparent 74%);
 }
 
 a {
