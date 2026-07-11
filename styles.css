@@ -322,15 +322,20 @@ p {
   display: flex;
   width: max-content;
   align-items: center;
-  gap: 22px;
   min-height: 44px;
-  padding-right: 22px;
-  animation: ticker 28s linear infinite;
+  animation: ticker 68s linear infinite;
   font-family: var(--mono);
   font-size: .72rem;
   font-weight: 700;
   text-transform: uppercase;
   white-space: nowrap;
+}
+
+.ticker-set {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  padding-right: 22px;
 }
 
 .ticker-track b {
@@ -2130,6 +2135,11 @@ p {
 
   .js .reveal {
     opacity: 1;
+    transform: none;
+  }
+
+  .ticker-track {
+    animation: none;
     transform: none;
   }
 }
